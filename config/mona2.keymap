@@ -43,7 +43,7 @@
             label = "TO_LAYER_0";
         };
 
-        copy: copy {
+        copybotu: copybotu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -53,7 +53,7 @@
                 <&macro_release>,
                 <&kp LCTRL>;
 
-            label = "COPY";
+            label = "COPYBOTU";
         };
     };
 
@@ -89,10 +89,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E    &kp R      &kp T                                                               &kp Y            &kp U  &kp I      &kp O               &lt_to_layer_0 6 P
-&kp A             &kp S         &kp D    &kp F      &kp G                                       &kp F7                  &kp H            &kp J  &kp K      &lt_to_layer_0 5 L  &kp COLON
-&mt LEFT_SHIFT Z  &kp X         &kp C    &kp V      &kp B             &copy                     &kp F10                 &kp N            &kp M  &kp COMMA  &kp DOT             &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp F16  &kp ENTER  &lt 2 LANGUAGE_2  &lt_to_layer_0 3 SPACE    &lt_to_layer_0 3 LANG1  &lt 1 BACKSPACE                                        &kp LEFT_ALT
+&kp Q             &kp W         &kp E         &kp R           &kp T                                                          &kp Y            &kp U  &kp I      &kp O               &lt_to_layer_0 6 P
+&kp A             &kp S         &kp D         &kp F           &kp G                                  &kp F7                  &kp H            &kp J  &kp K      &lt_to_layer_0 5 L  &kp COLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V           &kp B        &kp ENTER                 &kp F10                 &kp N            &kp M  &kp COMMA  &kp DOT             &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 ENTER    &lt_to_layer_0 3 LANG1  &lt 1 BACKSPACE                                        &kp LEFT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -122,9 +122,9 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
+&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp MINUS        &kp TILDE
+&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET
+&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &kp RIGHT_BRACKET
 &trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
             >;
 
