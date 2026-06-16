@@ -16,19 +16,19 @@ layers:
   - D
   - F
   - G
-  - F13
+  - F7
   - H
   - J
   - K
   - {t: '&to_layer_0 L', h: '5'}
-  - ;
+  - ':'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
   - F14
-  - F15
+  - F10
   - N
   - M
   - ','
@@ -228,9 +228,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB3'
-  - '&mkp MB2'
   - '&mkp MB1'
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB1'
