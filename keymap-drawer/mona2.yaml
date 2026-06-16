@@ -20,7 +20,7 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: '&to_layer_0 L', h: '5'}
   - ;
   - {t: Z, h: LEFT SHIFT}
   - X
@@ -95,8 +95,8 @@ layers:
   - ^
   - '&'
   - '*'
+  - +
   - '-'
-  - _
   - '`'
   - '~'
   - '"'
@@ -107,7 +107,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '='
-  - +
+  - _
   - F1
   - F2
   - F3
@@ -232,10 +232,10 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -245,8 +245,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
