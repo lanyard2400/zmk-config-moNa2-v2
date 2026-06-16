@@ -42,6 +42,19 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        copy: copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LCTRL>,
+                <&macro_press>,
+                <&kp C>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "COPY";
+        };
     };
 
     behaviors {
@@ -76,9 +89,9 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E    &kp R          &kp T                                                          &kp Y        &kp U  &kp I      &kp O               &kp P
+&kp Q             &kp W         &kp E    &kp R          &kp T                                                          &kp Y        &kp U  &kp I      &kp O               &lt_to_layer_0 6 P
 &kp A             &kp S         &kp D    &kp F          &kp G                                  &kp F7                  &kp H        &kp J  &kp K      &lt_to_layer_0 5 L  &kp COLON
-&mt LEFT_SHIFT Z  &kp X         &kp C    &kp V          &kp B        &kp F14                   &kp F10                 &kp N        &kp M  &kp COMMA  &kp DOT             &kp SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C    &kp V          &kp B        &kp K_COPY                &kp F10                 &kp N        &kp M  &kp COMMA  &kp DOT             &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp F16  &kp BACKSPACE  &lt 2 ENTER  &lt_to_layer_0 3 LANG2    &lt_to_layer_0 3 LANG1  &lt 1 SPACE                                        &kp LEFT_ALT
             >;
 
@@ -88,8 +101,8 @@
         layer_1 {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp BACKSLASH
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans        &trans                &trans                 &trans        &kp PIPE
+&trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp SEMICOLON
+&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans        &trans                &trans                 &trans        &kp NON_US_BACKSLASH
 &trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans                                                                   &trans
             >;
 
@@ -131,10 +144,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans    &trans    &trans                      &trans    &trans    &trans    &trans  &trans
-&trans  &mkp MB3  &mkp MB1  &mkp MB1  &mkp MB2            &trans  &mkp MB3  &mkp MB1  &mkp MB2  &trans  &trans
-&trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans    &mkp MB4  &mkp MB5  &trans  &trans
-&trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans                                &trans
+&trans  &trans    &kp UP_ARROW  &trans     &trans                      &kp UP_ARROW  &trans    &trans    &trans  &trans
+&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &mkp MB2            &trans  &mkp MB3      &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans    &trans        &trans     &trans    &trans    &trans  &kp DOWN      &mkp MB4  &mkp MB5  &trans  &trans
+&trans  &trans    &trans        &trans     &trans    &trans    &trans  &trans                                    &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
