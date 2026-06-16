@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - COPY
+  - '&copy'
   - F10
   - N
   - M
@@ -37,11 +37,11 @@ layers:
   - LCTRL
   - LEFT WIN
   - F16
-  - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - ENTER
+  - {t: LANGUAGE 2, h: '2'}
+  - {t: '&to_layer_0 SPACE', h: '3'}
   - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
+  - {t: BACKSPACE, h: '1'}
   - LEFT ALT
   '1':
   - '1'
@@ -228,18 +228,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-  - DOWN
-  - RIGHT
+  - '&mkp MB1'
+  - '&mkp MB2'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
   - {type: held}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DOWN ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,7 +248,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
