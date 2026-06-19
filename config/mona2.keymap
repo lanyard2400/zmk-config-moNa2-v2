@@ -100,10 +100,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp SEMICOLON
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans        &trans                &trans                 &trans        &kp NON_US_BACKSLASH
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans                                                                   &trans
+&kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
+&kp EXCLAMATION  &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp SEMICOLON
+&kp QUESTION     &trans        &trans            &trans             &trans        &trans    &trans  &trans        &trans                &trans                 &trans        &kp NON_US_BACKSLASH
+&trans           &trans        &trans            &trans             &trans        &trans    &trans  &trans                                                                   &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -155,10 +155,10 @@
 
         SCROLL {
             bindings = <
-&kp ESCAPE  &kp PRINTSCREEN  &kp UP_ARROW  &mkp MB2   &trans                    &trans  &trans    &trans    &trans  &kp MINUS
-&trans      &kp LEFT_ARROW   &kp DOWN      &kp RIGHT  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &trans  &kp UNDERSCORE
-&trans      &trans           &trans        &trans     &trans  &trans    &trans  &trans  &trans    &trans    &trans  &trans
-&trans      &trans           &trans        &trans     &trans  &trans    &trans  &trans                              &trans
+&kp LEFT_SHIFT  &kp PRINTSCREEN  &kp UP_ARROW  &mkp MB2   &trans                    &trans  &trans    &trans    &trans  &kp MINUS
+&kp LS(TAB)     &kp LEFT_ARROW   &kp DOWN      &kp RIGHT  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &trans  &kp UNDERSCORE
+&trans          &trans           &trans        &trans     &trans  &trans    &trans  &trans  &trans    &trans    &trans  &trans
+&trans          &trans           &trans        &trans     &trans  &trans    &trans  &trans                              &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
