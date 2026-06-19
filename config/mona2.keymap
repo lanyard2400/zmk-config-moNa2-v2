@@ -155,8 +155,8 @@
 
         SCROLL {
             bindings = <
-&kp ESCAPE  &kp PRINTSCREEN  &kp UP_ARROW  &mkp MB2   &trans                    &trans  &trans    &trans    &trans  &trans
-&trans      &kp LEFT_ARROW   &kp DOWN      &kp RIGHT  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&kp ESCAPE  &kp PRINTSCREEN  &kp UP_ARROW  &mkp MB2   &trans                    &trans  &trans    &trans    &trans  &kp MINUS
+&trans      &kp LEFT_ARROW   &kp DOWN      &kp RIGHT  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &trans  &kp UNDERSCORE
 &trans      &trans           &trans        &trans     &trans  &trans    &trans  &trans  &trans    &trans    &trans  &trans
 &trans      &trans           &trans        &trans     &trans  &trans    &trans  &trans                              &trans
             >;
