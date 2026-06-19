@@ -22,12 +22,12 @@ layers:
   - K
   - {t: '&to_layer_0 L', h: '5'}
   - ':'
-  - {t: Z, h: LEFT SHIFT}
+  - {t: Z, h: LCTRL}
   - X
   - C
   - V
   - B
-  - ENTER
+  - '&mkp MB1'
   - F10
   - N
   - M
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
-  - {t: ▽, type: trans}
+  - ESCAPE
   - Ctl+Sft+TAB
   - PRINTSCREEN
   - Ctl+TAB
@@ -97,7 +97,7 @@ layers:
   - UP ARROW
   - '-'
   - '~'
-  - {t: ▽, type: trans}
+  - ENTER
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
@@ -225,7 +225,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - LEFT
   - '&mkp MB1'
