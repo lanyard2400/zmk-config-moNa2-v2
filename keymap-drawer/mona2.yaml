@@ -22,7 +22,7 @@ layers:
   - K
   - {t: '&to_layer_0 L', h: '5'}
   - ':'
-  - {t: Z, h: LCTRL}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -216,8 +216,8 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - PRINTSCREEN
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -229,7 +229,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - '&mkp MB1'
-  - '&mkp MB2'
+  - RIGHT ARROW
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - '&mkp MB3'
@@ -259,8 +259,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - ESCAPE
+  - PRINTSCREEN
   - UP ARROW
   - '&mkp MB2'
   - {t: ▽, type: trans}
