@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN
@@ -279,7 +279,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
