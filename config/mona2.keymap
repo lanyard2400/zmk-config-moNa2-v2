@@ -111,10 +111,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp MINUS        &kp TILDE
-&kp ENTER   &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET
-&trans      &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &kp RIGHT_BRACKET
-&trans      &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
+&kp ESCAPE  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans       &kp HOME        &kp UP_ARROW    &kp MINUS        &kp TILDE
+&kp ENTER   &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &kp TAB      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET
+&trans      &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &kp LS(TAB)  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &kp RIGHT_BRACKET
+&trans      &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -155,10 +155,10 @@
 
         SCROLL {
             bindings = <
-&kp EXCLAMATION  &kp PRINTSCREEN  &kp UP_ARROW  &mkp MB2   &trans                    &trans  &trans    &trans    &trans  &kp MINUS
-&kp QUESTION     &kp LEFT_ARROW   &kp DOWN      &kp RIGHT  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &trans  &kp UNDERSCORE
-&trans           &trans           &trans        &trans     &trans  &trans    &trans  &trans  &trans    &trans    &trans  &trans
-&trans           &trans           &trans        &trans     &trans  &trans    &trans  &trans                              &trans
+&kp EXCLAMATION  &kp PRINTSCREEN  &kp UP_ARROW  &mkp MB2   &trans                              &trans  &kp SQT   &kp DOUBLE_QUOTES  &trans  &kp MINUS
+&kp QUESTION     &kp LEFT_ARROW   &kp DOWN      &kp RIGHT  &kp TAB                     &trans  &trans  &mkp MB1  &mkp MB2           &trans  &kp UNDERSCORE
+&trans           &trans           &trans        &trans     &kp RS(TAB)  &kp LG(TAB)    &trans  &trans  &trans    &trans             &trans  &trans
+&trans           &trans           &trans        &trans     &trans       &trans         &trans  &trans                                       &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
