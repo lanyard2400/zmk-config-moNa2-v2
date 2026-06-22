@@ -109,8 +109,8 @@ layers:
   - RIGHT ARROW
   - '['
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
+  - Sft+Gui+LEFT
+  - Gui+Sft+RIGHT
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
