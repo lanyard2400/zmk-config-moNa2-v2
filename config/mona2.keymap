@@ -101,9 +101,9 @@
         layer_1 {
             bindings = <
 &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                               &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&kp EXCLAMATION  &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &kp SQT            &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE      &kp SEMICOLON
+&kp EXCLAMATION  &kp AT_SIGN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &kp SQT            &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE      &kp SEMICOLON
 &kp QUESTION     &trans        &kp LESS_THAN     &kp GREATER_THAN   &trans        &trans    &kp DOUBLE_QUOTES  &kp EQUAL     &kp PLUS              &kp MINUS              &kp ASTERISK  &kp NON_US_BACKSLASH
-&trans           &trans        &trans            &trans             &trans        &trans    &trans             &trans                                                                   &trans
+&trans           &trans        &trans            &trans             &trans        &trans    &trans             &trans                                                                   &kp AT_SIGN
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -161,7 +161,7 @@
 &trans           &trans           &trans        &trans     &trans       &trans         &trans  &trans                                       &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
         };
     };
 };
