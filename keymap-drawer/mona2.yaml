@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - F7
+  - {t: F7, h: PRINTSCREEN}
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - '&mkp MB1'
-  - F10
+  - {t: F10, h: F5}
   - N
   - M
   - ','
@@ -89,7 +89,7 @@ layers:
   '3':
   - ESCAPE
   - Ctl+Sft+TAB
-  - PRINTSCREEN
+  - Gui+UP ARROW
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
