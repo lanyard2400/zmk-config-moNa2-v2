@@ -220,7 +220,7 @@ layers:
   - PRINTSCREEN
   - UP ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RANDOM PLAY
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
