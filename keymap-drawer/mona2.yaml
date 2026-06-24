@@ -102,7 +102,7 @@ layers:
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
   - TAB
   - LEFT ARROW
   - DOWN ARROW
@@ -114,7 +114,7 @@ layers:
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+DOWN
   - Sft+TAB
   - DELETE
   - PAGE UP
@@ -230,12 +230,12 @@ layers:
   - LEFT
   - '&mkp MB1'
   - RIGHT ARROW
-  - '&mkp MB2'
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - {type: held}
+  - {t: LEFT SHIFT, type: held}
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
