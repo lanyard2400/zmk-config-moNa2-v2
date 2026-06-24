@@ -154,10 +154,10 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE  &kp PRINTSCREEN  &kp UP_ARROW    &trans           &trans                      &kp UP_ARROW  &trans    &trans    &trans  &kp DELETE
-&trans      &kp LEFT         &mkp MB1        &kp RIGHT_ARROW  &mkp MB2            &trans  &mkp MB3      &mkp MB1  &mkp MB2  &trans  &kp UP_ARROW
-&trans      &trans           &kp DOWN_ARROW  &trans           &trans    &trans    &trans  &kp DOWN      &mkp MB4  &mkp MB5  &trans  &kp DOWN
-&trans      &trans           &trans          &trans           &trans    &trans    &trans  &trans                                    &trans
+&kp ESCAPE  &kp PRINTSCREEN  &kp UP_ARROW    &trans           &kp C_RANDOM_PLAY                    &kp UP_ARROW  &trans    &trans    &trans  &kp DELETE
+&trans      &kp LEFT         &mkp MB1        &kp RIGHT_ARROW  &mkp MB2                     &trans  &mkp MB3      &mkp MB1  &mkp MB2  &trans  &kp UP_ARROW
+&trans      &trans           &kp DOWN_ARROW  &trans           &trans             &trans    &trans  &kp DOWN      &mkp MB4  &mkp MB5  &trans  &kp DOWN
+&trans      &trans           &trans          &trans           &trans             &trans    &trans  &trans                                    &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
