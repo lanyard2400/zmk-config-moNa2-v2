@@ -93,7 +93,7 @@ layers:
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
+  - {t: ▽, type: trans}
   - UP ARROW
   - '-'
   - '~'
