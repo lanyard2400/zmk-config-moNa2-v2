@@ -52,19 +52,6 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
-
-        copybotu: copybotu {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LCTRL>,
-                <&macro_press>,
-                <&kp C>,
-                <&macro_release>,
-                <&kp LCTRL &kp>;
-
-            label = "COPYBOTU";
-        };
     };
 
     behaviors {
@@ -100,7 +87,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                                          &kp Y          &kp U  &kp I      &kp O               &kp P
-&mt LEFT_SHIFT A  &kp S         &kp D         &kp F             &kp G                                  &mt PRINTSCREEN F7      &kp H          &kp J  &kp K      &lt_to_layer_0 5 L  &kp COLON
+&kp A             &kp S         &kp D         &kp F             &kp G                                  &mt PRINTSCREEN F7      &kp H          &kp J  &kp K      &lt_to_layer_0 5 L  &kp COLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &mkp MB1                  &mt F5 F10              &kp N          &kp M  &kp COMMA  &kp DOT             &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 6 SPACE  &lt_to_layer_0 5 ENTER    &lt_to_layer_0 1 LANG1  &kp BACKSPACE                                        &kp LCTRL
             >;
