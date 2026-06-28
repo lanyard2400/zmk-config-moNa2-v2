@@ -142,8 +142,8 @@
         MOUSE {
             bindings = <
 &kp ESCAPE  &kp PRINTSCREEN  &kp UP_ARROW    &trans           &kp C_RANDOM_PLAY                    &kp UP_ARROW  &trans    &trans    &trans          &kp DELETE
-&trans      &kp LEFT         &mkp MB1        &kp RIGHT_ARROW  &kp LEFT_SHIFT               &trans  &mkp MB3      &mkp MB1  &mkp MB2  &kp LEFT_SHIFT  &kp UP_ARROW
-&trans      &trans           &kp DOWN_ARROW  &trans           &trans             &trans    &trans  &kp DOWN      &mkp MB4  &mkp MB5  &trans          &kp DOWN
+&trans      &kp LEFT         &mkp MB1        &kp RIGHT_ARROW  &kp LS(TAB)                  &trans  &mkp MB3      &mkp MB1  &mkp MB2  &kp LEFT_SHIFT  &kp UP_ARROW
+&trans      &trans           &kp DOWN_ARROW  &trans           &kp LS(LC(TAB))    &trans    &trans  &kp DOWN      &mkp MB4  &mkp MB5  &trans          &kp DOWN
 &trans      &trans           &trans          &trans           &trans             &trans    &trans  &trans                                            &trans
             >;
 
@@ -152,10 +152,10 @@
 
         SCROLL {
             bindings = <
-&kp EXCLAMATION  &kp PRINTSCREEN  &kp UP_ARROW   &mkp MB2          &trans                              &trans  &kp SQT   &kp DOUBLE_QUOTES  &trans  &kp MINUS
-&kp QUESTION     &kp LEFT_ARROW   &kp DOWN       &kp RIGHT         &kp TAB                     &trans  &trans  &mkp MB1  &mkp MB2           &trans  &kp UNDERSCORE
-&trans           &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp LS(TAB)  &kp LG(TAB)    &trans  &trans  &trans    &trans             &trans  &trans
-&trans           &trans           &trans         &trans            &trans       &trans         &trans  &trans                                       &trans
+&kp EXCLAMATION  &kp PRINTSCREEN  &kp UP_ARROW   &mkp MB2          &trans                              &trans  &kp SQT   &kp DOUBLE_QUOTES  &kp DEL  &kp LC(MINUS)
+&kp QUESTION     &kp LEFT_ARROW   &kp DOWN       &kp RIGHT         &kp TAB                     &trans  &trans  &mkp MB1  &mkp MB2           &trans   &kp UNDERSCORE
+&trans           &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp LS(TAB)  &kp LG(TAB)    &trans  &trans  &trans    &trans             &trans   &trans
+&trans           &trans           &trans         &trans            &trans       &trans         &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
