@@ -230,7 +230,7 @@ layers:
   - LEFT
   - '&mkp MB1'
   - RIGHT ARROW
-  - LEFT SHIFT
+  - Sft+TAB
   - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB1'
@@ -241,7 +241,7 @@ layers:
   - {t: ▽, type: trans}
   - DOWN ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DOWN
@@ -267,8 +267,8 @@ layers:
   - {t: ▽, type: trans}
   - ''''
   - '"'
-  - {t: ▽, type: trans}
-  - '-'
+  - DEL
+  - Ctl+-
   - '?'
   - LEFT ARROW
   - DOWN
