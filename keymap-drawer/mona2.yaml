@@ -99,8 +99,8 @@ layers:
   - '~'
   - ENTER
   - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
+  - Gui+DOWN
+  - Gui+RIGHT
   - Ctl+Gui+RIGHT ARROW
   - Ctl+UP ARROW
   - TAB
@@ -111,8 +111,8 @@ layers:
   - {t: ▽, type: trans}
   - Sft+Gui+LEFT
   - Gui+Sft+RIGHT
-  - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - Gui+Ctl+LEFT
+  - Gui+Ctl+RIGHT
   - {t: ▽, type: trans}
   - Ctl+DOWN
   - Sft+TAB
