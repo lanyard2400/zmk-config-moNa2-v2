@@ -104,8 +104,8 @@
                        <&kp LC(LG(LEFT_ARROW))>,
                        <&kp LG(TAB)>,
                        <&kp LG(D)>;
-            tick = <100>;
-            wait-ms = <150>;
+            tick = <150>;
+            wait-ms = <250>;
             tap-ms = <10>;
             max_pending_activations = <1>;
         };
@@ -119,8 +119,8 @@
                        <&kp LC(LG(LEFT_ARROW))>,
                        <&kp LG(TAB)>,
                        <&kp LC(LG(LS(RIGHT_ARROW)))>;
-            tick = <100>;
-            wait-ms = <150>;
+            tick = <150>;
+            wait-ms = <250>;
             tap-ms = <10>;
             max_pending_activations = <1>;
         };
@@ -134,8 +134,8 @@
                        <&kp LC(LS(TAB))>,
                        <&kp LC(T)>,
                        <&kp LC(W)>;
-            tick = <100>;
-            wait-ms = <150>;
+            tick = <150>;
+            wait-ms = <250>;
             tap-ms = <10>;
             max_pending_activations = <1>;
         };
