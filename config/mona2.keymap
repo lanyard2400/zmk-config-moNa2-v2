@@ -104,9 +104,10 @@
                        <&kp LC(LG(LEFT_ARROW))>,
                        <&kp LG(TAB)>,
                        <&kp LG(D)>;
-            tick = <40>;
-            wait-ms = <0>;
+            tick = <100>;
+            wait-ms = <150>;
             tap-ms = <10>;
+            max_pending_activations = <1>;
         };
 
         op_gesture_keybind: op_gesture_keybind {
@@ -118,9 +119,10 @@
                        <&kp LC(LG(LEFT_ARROW))>,
                        <&kp LG(TAB)>,
                        <&kp LC(LG(LS(RIGHT_ARROW)))>;
-            tick = <40>;
-            wait-ms = <0>;
+            tick = <100>;
+            wait-ms = <150>;
             tap-ms = <10>;
+            max_pending_activations = <1>;
         };
 
         tab_gesture_keybind: tab_gesture_keybind {
@@ -132,9 +134,10 @@
                        <&kp LC(LS(TAB))>,
                        <&kp LC(T)>,
                        <&kp LC(W)>;
-            tick = <40>;
-            wait-ms = <0>;
+            tick = <100>;
+            wait-ms = <150>;
             tap-ms = <10>;
+            max_pending_activations = <1>;
         };
     };
 
