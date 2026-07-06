@@ -118,7 +118,7 @@
             bindings = <&kp LC(LG(RIGHT_ARROW))>,
                        <&kp LC(LG(LEFT_ARROW))>,
                        <&kp LG(TAB)>,
-                       <&kp LC(LG(LS(RIGHT_ARROW)))>;
+                       <&kp LG(D)>;
             tick = <150>;
             wait-ms = <250>;
             tap-ms = <10>;
