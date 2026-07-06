@@ -69,7 +69,7 @@
     device = <&trackball_central>;
 
     gesture {
-        layers = <7>;
+        layers = <6>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
             <&gesture_keybind>;

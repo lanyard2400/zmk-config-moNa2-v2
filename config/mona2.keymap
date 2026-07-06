@@ -10,7 +10,6 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 5
 #define SCROLL 6
-#define GESTURE 7
 
 &mt {
     flavor = "balanced";
@@ -107,7 +106,7 @@
 &kp Q             &kp W         &kp E         &kp R             &kp T                                                          &kp Y          &kp U  &kp I      &kp O               &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G                                  &mt PRINTSCREEN F7      &kp H          &kp J  &kp K      &lt_to_layer_0 5 L  &kp COLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &mkp MB1                  &mt F5 F10              &kp N          &kp M  &kp COMMA  &kp DOT             &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 6 SPACE  &lt_to_layer_0 3 ENTER    &lt_to_layer_0 GESTURE LANG1  &kp BACKSPACE                                   &kp LCTRL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 6 SPACE  &lt_to_layer_0 3 ENTER    &lt_to_layer_0 2 LANG1  &kp BACKSPACE                                        &kp LCTRL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -179,15 +178,5 @@
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
         };
 
-        GESTURE {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-        };
     };
 };
