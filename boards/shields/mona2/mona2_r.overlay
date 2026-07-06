@@ -75,6 +75,20 @@
             <&gesture_keybind>;
     };
 
+    op_gesture {
+        layers = <7>;
+        input-processors =
+            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+            <&op_gesture_keybind>;
+    };
+
+    tab_gesture {
+        layers = <8>;
+        input-processors =
+            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+            <&tab_gesture_keybind>;
+    };
+
     scroller {
         layers = <3>;
         input-processors = 
