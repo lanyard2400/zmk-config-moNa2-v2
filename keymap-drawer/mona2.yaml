@@ -88,9 +88,9 @@ layers:
   - '@'
   '3':
   - ESCAPE
-  - Ctl+Sft+TAB
+  - Ctl+PAGE UP
   - Gui+UP ARROW
-  - Ctl+TAB
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -101,7 +101,7 @@ layers:
   - Gui+LEFT ARROW
   - Gui+DOWN
   - Gui+RIGHT
-  - Ctl+Gui+RIGHT ARROW
+  - Ctl+Gui+LEFT
   - Ctl+UP ARROW
   - TAB
   - LEFT ARROW
@@ -110,8 +110,8 @@ layers:
   - '['
   - {t: ▽, type: trans}
   - Sft+Gui+LEFT
+  - Gui+Sft+LEFT
   - Gui+Sft+RIGHT
-  - Gui+Ctl+LEFT
   - Gui+Ctl+RIGHT
   - {t: ▽, type: trans}
   - Ctl+DOWN
@@ -263,7 +263,7 @@ layers:
   - PRINTSCREEN
   - UP ARROW
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - ''''
   - '"'
