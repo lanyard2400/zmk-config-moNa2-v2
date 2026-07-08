@@ -185,7 +185,7 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                           &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp AT_SIGN  &kp AT_SIGN
+&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                           &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp AT_SIGN  &kp DELETE
 &kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                     &kp TILDE  &mkp MB3    &mkp MB1     &mkp MB2       &kp EQUAL    &kp MINUS
 &kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp LA(F4)    &kp F12    &kp F6      &kp F7       &kp F8         &kp F9       &kp F10
 &trans           &trans       &trans             &trans      &trans       &trans        &trans     &trans                                               &trans
