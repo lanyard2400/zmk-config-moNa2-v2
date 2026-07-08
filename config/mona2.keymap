@@ -183,7 +183,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        layer_2 {
+        enter {
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                           &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp AT_SIGN  &kp DELETE
 &kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                     &kp TILDE  &mkp MB3    &mkp MB1     &mkp MB2       &kp EQUAL    &kp MINUS
