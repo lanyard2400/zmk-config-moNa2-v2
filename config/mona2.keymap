@@ -174,10 +174,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))     &kp LG(UP_ARROW)   &kp LC(TAB)       &trans                                               &trans       &trans          &kp UP_ARROW    &kp MINUS        &kp TILDE
-&kp ENTER   &kp LG(LEFT_ARROW)  &kp LG(DOWN)       &kp LG(RIGHT)     &kp LC(LG(RIGHT_ARROW))            &kp LC(UP_ARROW)  &kp TAB      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET
-&trans      &kp LS(LG(LEFT))    &kp LG(LS(RIGHT))  &kp LG(LC(LEFT))  &kp LG(LC(RIGHT))        &trans    &kp LC(DOWN)      &kp LS(TAB)  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &kp RIGHT_BRACKET
-&trans      &trans              &trans             &trans            &trans                   &trans    &trans            &trans                                                        &trans
+&kp ESCAPE  &kp LC(PAGE_UP)     &kp LG(UP_ARROW)  &kp LC(PAGE_DOWN)  &trans                                         &trans       &trans          &kp UP_ARROW    &kp MINUS        &kp TILDE
+&kp ENTER   &kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(RIGHT)      &kp LC(LG(LEFT))             &kp LC(UP_ARROW)  &kp TAB      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET
+&trans      &kp LS(LG(LEFT))    &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))  &kp LG(LC(RIGHT))  &trans    &kp LC(DOWN)      &kp LS(TAB)  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &kp RIGHT_BRACKET
+&trans      &trans              &trans            &trans             &trans             &trans    &trans            &trans                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -218,10 +218,10 @@
 
         SCROLL {
             bindings = <
-&kp EXCLAMATION  &kp PRINTSCREEN  &kp UP_ARROW   &mkp MB2          &trans                              &trans  &kp SQT   &kp DOUBLE_QUOTES  &kp DEL  &kp MINUS
-&kp QUESTION     &kp LEFT_ARROW   &kp DOWN       &kp RIGHT         &kp TAB                     &trans  &trans  &mkp MB1  &mkp MB2           &trans   &kp UNDER
-&trans           &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp LS(TAB)  &kp LG(TAB)    &trans  &trans  &trans    &trans             &trans   &kp PIPE
-&trans           &trans           &trans         &trans            &trans       &trans         &trans  &trans                                        &trans
+&kp EXCLAMATION  &kp PRINTSCREEN  &kp UP_ARROW   &mkp MB2          &kp PRINTSCREEN                         &trans  &kp SQT   &kp DOUBLE_QUOTES  &kp DEL  &kp MINUS
+&kp QUESTION     &kp LEFT_ARROW   &kp DOWN       &kp RIGHT         &kp TAB                         &trans  &trans  &mkp MB1  &mkp MB2           &trans   &kp UNDER
+&trans           &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp LS(TAB)      &kp LG(TAB)    &trans  &trans  &trans    &trans             &trans   &kp PIPE
+&trans           &trans           &trans         &trans            &trans           &trans         &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
