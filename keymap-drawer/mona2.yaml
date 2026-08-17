@@ -102,8 +102,8 @@ layers:
   - Gui+DOWN
   - Gui+RIGHT
   - Ctl+Gui+LEFT
-  - Ctl+UP ARROW
-  - TAB
+  - Ctl+PAGE UP
+  - HOME
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -114,8 +114,8 @@ layers:
   - Gui+Sft+RIGHT
   - Gui+Ctl+RIGHT
   - {t: ▽, type: trans}
-  - Ctl+DOWN
-  - Sft+TAB
+  - Ctl+PAGE DOWN
+  - END
   - DELETE
   - PAGE UP
   - PAGE DOWN
