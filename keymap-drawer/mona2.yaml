@@ -260,11 +260,11 @@ layers:
   - {t: ▽, type: trans}
   '6':
   - '!'
-  - PRINTSCREEN
+  - '"'
   - UP ARROW
-  - '&mkp MB2'
-  - PRINTSCREEN
-  - {t: ▽, type: trans}
+  - $
+  - '%'
+  - '&'
   - ''''
   - '"'
   - DEL
@@ -280,7 +280,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - _
-  - {t: ▽, type: trans}
+  - '#'
   - {t: ▽, type: trans}
   - <
   - '>'
