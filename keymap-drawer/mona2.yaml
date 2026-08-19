@@ -49,7 +49,7 @@ layers:
   - '3'
   - (
   - )
-  - (
+  - {t: ▽, type: trans}
   - (
   - )
   - <
@@ -60,7 +60,7 @@ layers:
   - '['
   - TAB
   - ''''
-  - '['
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - <
@@ -72,7 +72,7 @@ layers:
   - Sft+TAB
   - Alt+F4
   - '"'
-  - '{'
+  - {t: ▽, type: trans}
   - '{'
   - '}'
   - <
@@ -147,9 +147,9 @@ layers:
   - TAB
   - '~'
   - +
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '@'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - F1
   - F2
@@ -267,7 +267,7 @@ layers:
   - '&'
   - ''''
   - '"'
-  - DEL
+  - {t: ▽, type: trans}
   - '-'
   - '?'
   - LEFT ARROW
@@ -276,8 +276,8 @@ layers:
   - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - _
   - '#'
