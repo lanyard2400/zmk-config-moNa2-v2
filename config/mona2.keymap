@@ -185,10 +185,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                   &kp LEFT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET      &kp TAB                              &kp SQT            &kp LEFT_BRACKET      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN
-&kp N7        &kp N8        &kp N9        &kp LESS_THAN         &kp LS(TAB)            &kp LA(F4)    &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN
-&kp N0        &kp N0        &kp HASH      &trans                &trans                 &trans        &trans             &trans                                                                            &kp AT_SIGN
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                   &trans  &kp LPAR  &kp RPAR  &kp LESS_THAN  &kp GREATER_THAN
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET      &kp TAB                              &kp SQT            &trans  &kp LBKT  &kp RBKT  &kp LESS_THAN  &kp GREATER_THAN
+&kp N7        &kp N8        &kp N9        &kp LESS_THAN         &kp LS(TAB)            &kp LA(F4)    &kp DOUBLE_QUOTES  &trans  &kp LBRC  &kp RBRC  &kp LESS_THAN  &kp GREATER_THAN
+&kp N0        &kp N0        &kp HASH      &trans                &trans                 &trans        &trans             &trans                                     &kp AT_SIGN
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -208,7 +208,7 @@
         enter {
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND          &kp DOLLAR  &kp PERCENT                           &kp AMPERSAND  &kp SQT   &kp AMPERSAND  &kp AT_SIGN   &kp DELETE
-&kp QUESTION     &kp TILDE          &kp DOUBLE_QUOTES  &kp SQT     &kp TAB                    &kp TILDE  &kp PLUS       &mkp MB1  &mkp MB2       &kp AT_SIGN   &kp MINUS
+&kp QUESTION     &kp TILDE          &kp DOUBLE_QUOTES  &kp SQT     &kp TAB                    &kp TILDE  &kp PLUS       &trans    &trans         &trans        &kp MINUS
 &kp F1           &kp F2             &kp F3             &kp F4      &kp LS(TAB)  &kp LA(F4)    &kp EQUAL  &kp EQUAL      &kp PLUS  &kp MINUS      &kp ASTERISK  &kp BACKSLASH
 &trans           &trans             &trans             &trans      &trans       &trans        &trans     &trans                                                &trans
             >;
@@ -240,10 +240,10 @@
 
         SCROLL {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp UP_ARROW   &kp DOLLAR        &kp PERCENT                         &kp AMPERSAND  &kp SQT   &kp DOUBLE_QUOTES  &kp DEL  &kp MINUS
-&kp QUESTION     &kp LEFT_ARROW     &kp DOWN       &kp RIGHT         &kp TAB                     &trans  &trans         &mkp MB1  &mkp MB2           &trans   &kp UNDER
-&kp HASH         &trans             &kp LESS_THAN  &kp GREATER_THAN  &kp LS(TAB)  &kp LG(TAB)    &trans  &trans         &trans    &trans             &trans   &kp PIPE
-&trans           &trans             &trans         &trans            &trans       &trans         &trans  &trans                                               &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp UP_ARROW   &kp DOLLAR        &kp PERCENT                         &kp AMPERSAND  &kp SQT  &kp DOUBLE_QUOTES  &trans  &kp MINUS
+&kp QUESTION     &kp LEFT_ARROW     &kp DOWN       &kp RIGHT         &kp TAB                     &trans  &trans         &trans   &trans             &trans  &kp UNDER
+&kp HASH         &trans             &kp LESS_THAN  &kp GREATER_THAN  &kp LS(TAB)  &kp LG(TAB)    &trans  &trans         &trans   &trans             &trans  &kp PIPE
+&trans           &trans             &trans         &trans            &trans       &trans         &trans  &trans                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
